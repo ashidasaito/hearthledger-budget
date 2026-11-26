@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="HearthLedger is a household budget planner for the Marlowe family: plan the month, track every dollar, pay bills on time and grow savings goals.">
+<title>HearthLedger, the Marlowe household budget</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/">
+    <span class="brand-mark" aria-hidden="true">H</span>
+    <span class="brand-name">HearthLedger</span>
+    <span class="brand-sub">Marlowe household</span>
+  </a>
+  <nav class="mainnav" aria-label="Sections">
+    <a href="#/" data-route="">Dashboard</a>
+    <a href="#/budget" data-route="budget">Budget</a>
+    <a href="#/transactions" data-route="transactions">Transactions</a>
+    <a href="#/bills" data-route="bills">Bills</a>
+    <a href="#/goals" data-route="goals">Goals</a>
+    <a href="#/reports" data-route="reports">Reports</a>
+    <a href="#/subscriptions" data-route="subscriptions">Subscriptions</a>
+    <a href="#/guide" data-route="guide">Guide</a>
+  </nav>
+  <p class="month-label" id="monthLabel">November 2026</p>
+</header>
+<main id="app" aria-live="polite"></main>
+<footer class="sitefoot">
+  <p>HearthLedger keeps the Marlowe household budget on this device only. Nothing leaves the browser.</p>
+  <p><a href="#/guide">How the budget works</a> &middot; <a href="#/reports">November report</a></p>
+</footer>
+</body>
+</html>
